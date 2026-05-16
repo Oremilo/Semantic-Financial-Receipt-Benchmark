@@ -28,12 +28,12 @@ wheels/
 *.egg
 
 # Data and Outputs
-results/
-visualizations/
-reports/
-eval_data/
-*.csv
-*.png
-*.jpg
-*.jpeg
-*.pdf
+# results/
+# visualizations/
+# reports/
+# eval_data/
+# *.csv
+# *.png
+# *.jpg
+# *.jpeg
+# *.pdf

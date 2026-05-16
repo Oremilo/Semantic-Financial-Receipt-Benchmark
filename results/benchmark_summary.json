@@ -1,0 +1,59 @@
+{
+    "regex": {
+        "clean_firi": 0.6508755770159348,
+        "noisy_firi": 0.4086130569614973,
+        "robustness_drop": 0.2422625200544375,
+        "clean": {
+            "merchant_accuracy": 0.5562519233864492,
+            "amount_accuracy": 0.64,
+            "category_accuracy": 0.76,
+            "category_f1": 0.8249624060150376,
+            "json_completeness": 0.75
+        },
+        "noisy": {
+            "merchant_accuracy": 0.48871018987165743,
+            "amount_accuracy": 0.28,
+            "category_accuracy": 0.5,
+            "category_f1": 0.6317069597069596,
+            "json_completeness": 0.75
+        }
+    },
+    "ml": {
+        "clean_firi": 0.3,
+        "noisy_firi": 0.276,
+        "robustness_drop": 0.023999999999999966,
+        "clean": {
+            "merchant_accuracy": 0.0,
+            "amount_accuracy": 0.0,
+            "category_accuracy": 1.0,
+            "category_f1": 1.0,
+            "json_completeness": 0.5
+        },
+        "noisy": {
+            "merchant_accuracy": 0.0,
+            "amount_accuracy": 0.0,
+            "category_accuracy": 0.92,
+            "category_f1": 0.9169288824383163,
+            "json_completeness": 0.5
+        }
+    },
+    "llm": {
+        "clean_firi": 0.7343029079972807,
+        "noisy_firi": 0.5895999372925085,
+        "robustness_drop": 0.14470297070477223,
+        "clean": {
+            "merchant_accuracy": 0.6010096933242688,
+            "amount_accuracy": 0.68,
+            "category_accuracy": 0.94,
+            "category_f1": 0.9595136778115502,
+            "json_completeness": 0.975
+        },
+        "noisy": {
+            "merchant_accuracy": 0.5119997909750282,
+            "amount_accuracy": 0.46,
+            "category_accuracy": 0.84,
+            "category_f1": 0.8838354203935599,
+            "json_completeness": 0.95
+        }
+    }
+}
